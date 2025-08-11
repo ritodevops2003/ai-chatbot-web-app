@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+    <h2>Rito Rito AI<br /> Chat Bot</h2>
+<div class="chat-container">
+	<ul class="chat">
+		<li class="message left">
+			<img class="logo" src="images/emoji.svg" alt="">
+			<p>Hi,How can I help you today</p>
+		</li>
+		<% if (locals.pass) { %>
+			<% for (let i = 0; i < user.length; i++) { %>
+		<li class="message right">
+			<img class="logo" src="images/sunny.svg" alt="">
+			<p><%= user[i] %></p>
+		</li>
+		
+		<li class="message left">
+			<!-- <img class="logo" src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> -->
+			<img class="logo" src="images/emoji.svg" alt="">
+			<p><%- bot[i] %></p>
+		</li>
+		<% } %>
+		<% } %>
+	</ul>
+	
+	<form action="/message" id="form" class="form" method="post">
+		<input type="text" class="text_input" name="id" placeholder="Message..." />
+	  </form>
+</div>
+
+<footer>
+	<p>
+		Created by <i class="fa fa-heart"></i>
+		<a target="_blank" href="https://x.com/ritospacee">Rito</a>
+	</p>
+</footer>
+
+</body>
+</html>

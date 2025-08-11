@@ -1,0 +1,20 @@
+# Node modules (too big to upload)
+node_modules/
+
+# Environment variables (API keys, passwords)
+.env
+
+# Logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts (if any)
+dist/
+build/
