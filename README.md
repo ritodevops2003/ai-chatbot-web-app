@@ -2,6 +2,8 @@
 
 A full-stack chatbot application that lets users send messages and receive AI-generated responses in real time.  
 Built with **Node.js**, **Express.js**, and **Groq's LLaMA 3.3 model**, this app formats AI responses for rich HTML output including paragraphs, bold text, and lists.
+<img width="1900" height="977" alt="image" src="https://github.com/user-attachments/assets/b20435bb-6a46-4811-8ae6-049ec7e60644" />
+<img width="1902" height="972" alt="image" src="https://github.com/user-attachments/assets/98718280-94fc-49b2-8580-47e0cad17793" />
 
 ---
 
